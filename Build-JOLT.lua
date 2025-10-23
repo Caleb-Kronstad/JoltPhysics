@@ -28,14 +28,10 @@ project "JOLT"
         systemversion "latest"
         defines {
             "_CRT_SECURE_NO_WARNINGS",
-            "JPH_PLATFORM_WINDOWS"
         }
 
     filter "system:linux"
         pic "On"
-        defines {
-            "JPH_PLATFORM_LINUX"
-        }
         buildoptions {
             "-Wno-unused-variable",
             "-Wno-unused-but-set-variable",
