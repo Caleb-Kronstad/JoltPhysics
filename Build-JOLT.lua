@@ -5,8 +5,8 @@ project "JOLT"
     cppdialect "C++20"
     staticruntime "on"
 
-    targetdir ("../../../Build/Binaries/" .. OutputDir .. "/Project/Dependencies/%{prj.name}")
-    objdir ("../../../Build/Binaries-Intermediate/" .. OutputDir .. "/Project/Dependencies/%{prj.name}")
+    targetdir ("../../../Build/Binaries/" .. OutputDir .. "/Dependencies/%{prj.name}")
+    objdir ("../../../Build/Binaries-Intermediate/" .. OutputDir .. "/Dependencies/%{prj.name}")
 
     files {
           "Jolt/**.h",
